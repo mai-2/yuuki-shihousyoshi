@@ -1,0 +1,330 @@
+@media (max-width: 768px) {
+    .main {
+        padding:70px 10px 0;
+    }
+
+    .section_title {
+        font-size: 20px;
+    }
+
+    /*header============*/
+    .header_menu {
+        display: none;
+    }
+
+    .drawer,
+    .drawer_icon {
+        display: block;
+    }
+
+    .header_btn {
+        display: inline-block;
+        margin: 20px auto;
+    }
+
+    /*footer============*/
+    .footer_nav {
+        flex-direction: column;
+    }
+
+    .footer_lead {
+        padding: 20px 0 0;
+    }
+
+    .footer_home {
+        display: none;
+    }
+
+    .footer_copyright {
+        padding-top: 35px;
+    }
+
+    .totop {
+        right: 20px;
+        bottom: 12px;
+        width: 40px;
+        height: 40px;
+    }
+
+    /*main-visual============*/
+    .swiper-wrapper .swiper-slide {
+        background-position: 32% 0;
+    }
+
+    .main-visual_img {
+        margin-top: 0;
+    }
+
+    .main-visual_text {
+        font-size: 16px;
+        padding: 0;
+    }
+
+    /*concept============*/
+    .concept {
+        padding: 20px 0;
+    }
+    .concept_img {
+        display: none;
+    }
+
+    .concept_content {
+        margin: 0 auto;
+    }
+
+    .concept_illust {
+        padding: 0;
+        margin: 0 auto;
+        position: static;
+    }
+
+    .concept_lead {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .concept_message {
+        padding: 0;
+        position: static;
+    }
+
+    .concept_text {
+        padding-top: 10px;
+    }
+
+    /*intro============*/
+    .intro {
+        padding: 50px 0;
+    }
+    .intro_textblock {
+        margin: 20px auto 0;
+    }
+    .intro_text {
+        text-align: left;
+    }
+
+    /*service============*/
+    .service {
+        padding: 30px 0;
+    }
+
+    .service_items {
+        padding-top: 20px;
+    }
+
+    /*contact============*/
+    .contact_box {
+        display: block;
+        width: 75%;
+        padding-top: 20px;
+    }
+
+    .contact_link {
+        margin: 10px auto 0;
+    }
+
+    .contact_link:first-child {
+        margin: 10px auto 0;
+    }
+
+    /*concept2============*/
+    .concept_message2 {
+        transform: translateX(0);
+    }
+
+    /*about============*/
+    .about_title {
+        padding-top: 45px;
+    }
+
+    .about_wrapper {
+        display: block;
+        padding:0 0 20px;
+    }
+
+    .about_img {
+        margin: 0 auto;
+    }
+
+    .about_items {
+        padding-left: 0;
+        margin-top: 20px;
+    }
+
+    /*news============*/
+    .news_items {
+        display: block;
+    }
+
+    .news_item {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .news_item:nth-child(2n) {
+        margin-left: auto;
+    }
+
+    .news_item:nth-child(2) {
+        margin-top: 40px;
+    }
+
+
+
+/**下層共通パーツ
+  ゆうき司法書士事務所の業務内容
+ **/
+
+
+.service_list {
+        background: url(../img/top/background.jpg);
+            padding: 60px 15px;
+}
+
+.inbox {
+    width: 100%;
+    margin: auto;
+}
+
+.service_item {
+    padding: 5px;
+}
+.service_items.flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.service_items.flex li {
+    width: 48%;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+
+.service_list h3 {
+    border-bottom: none;
+}
+.service_lead {
+font-size: 14px;
+margin-bottom: 10px;
+padding-bottom: 0;
+}
+
+
+.service_item:not(:first-child) {
+    margin-top: 0
+}
+
+.service_list .service_img,
+.service_list .service_item:last-child .service_img {
+    padding-top: 0;
+    margin-bottom: 15px;
+    width:100%;
+    min-height: 180px;
+}
+
+.service_list .service_img img {
+    display: block;
+    width: 100%;
+    height: auto!important;
+    margin: auto;
+}
+
+/*sub-about============*/
+.sub-about_wrapper {
+    display: block;
+}
+
+.sub-about_img {
+    margin-right: 0;
+    text-align: center;
+}
+
+.sub-about_lead {
+    margin-top: 20px;
+    padding-bottom: 0;
+}
+
+.sub-about_text {
+    max-width: 100%;
+    margin-top: 20px;
+}
+
+.sub-about_items {
+    display: block;
+}
+
+.sub-about_item {
+    width: 100%;
+}
+
+.sub-about_items .sub-about_item:last-child {
+    width: 100%;
+}
+
+/*process============*/
+.process_items {
+    display: block;
+}
+
+.process_item {
+    width: 100%;
+}
+
+/*price============*/
+.price_wrapper {
+    display: block;
+}
+
+.price_cost {
+    padding: 10px 0 0;
+}
+}
+
+/*tab============*/
+.tab_wrapper {
+    display: block;
+}
+
+.tab-cost + .tab-cost {
+    margin:20px 0;
+}
+
+/*detail============*/
+.detail_container {
+    display: block;
+}
+
+.detail_img {
+    text-align: center;
+}
+
+.detail_content {
+    width: 100%;
+}
+
+.detail_items {
+    display: block;
+}
+
+.detail_item {
+    width: 100%;
+}
+
+.detail_wrapper {
+    display: block;
+}
+
+.detail_wrapper .detail_box:nth-child(2n) {
+    margin:20px 0 0;
+}
+
+.box_table th, .box_table td {
+    display: block;
+}
+
+/*closing============*/
+.closing_items {
+    display: block;
+}
